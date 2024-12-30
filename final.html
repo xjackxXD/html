@@ -1,0 +1,293 @@
+<html>
+    <head><title>Project Moon</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            rtl: true
+        });
+    });
+</script>
+    <style>
+       *{
+    margin:0;
+    color:gray;
+    *font-size: 40px;
+    text-align:center;
+}
+/* top */
+.top{
+    background-color: white;
+}
+.top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+}
+.top .logo{
+    font-size: 35px;
+    font-weight: bold;
+}
+.top .logo img{
+    width: 70px;
+    vertical-align: middle;
+}
+.top .top-nav{
+    font-size: 25px;
+    font-weight: bold;       
+}
+.top .top-nav a{
+    text-decoration: none;
+}
+        /* nav */
+        	.nav {
+ background-color:#333;
+ display: flex;
+ justify-content: center;
+}
+ul {
+  list-style-type: none;  /*去掉list原點*/
+  margin: 0;  /*設定下拉式選單邊界*/
+  padding: 0; /*設定下拉式選單邊界*/
+  overflow: hidden; /*超過邊界時要隱藏*/
+  background-color: #333; /*背景顏色*/
+}
+li {
+  float: left; /*向左靠齊*/
+}
+li a {    /*設定連結的屬性*/
+  display: block;  /*預設式inline，改成block區塊*/
+  color: white;  /*字體顏色*/
+  text-align: center;  /*字體置中*/
+  padding: 14px 16px;  /*字體邊界距離*/
+  text-decoration: none;  /*去掉連結的底線*/
+}
+li a:hover {
+  background-color: #111;  /*滑鼠靠近時改變顏色*/
+}
+.nav {
+    background-color:#333;
+    display: flex;
+    justify-content: center;
+}
+.nav ul {
+    list-style-type: none;  
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #333; 
+}
+.nav li {
+    float: left; 
+}
+.nav li a {    
+    display: block;  
+    color: white;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+}
+.nav li a:hover {
+    background-color: #111; 
+}
+ 
+
+        /* slider */
+        <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            rtl: true
+        });
+    });
+</script>
+        /* banner*/
+        .banner{
+    background-image: linear-gradient(#ABDCFF,#0396FF);
+    padding: 30px;
+    text-align:center;
+}
+.banner h1{
+    padding: 20px;
+}
+        .faculty {
+    display: block;
+    justify-content: center;
+    background-color:white;
+    padding:40px;
+}
+.faculty h2 {
+    font-size: 25px;
+    color: rgb(50,51,52);
+    padding-bottom:40px;
+}
+.faculty .container {
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.faculty .teacher{
+    /*border:1px solid blue;*/
+    display:block;
+    text-decoration: none;
+}
+.faculty .teacher img{
+    height: 200px;
+    width: 200px;
+}
+.faculty .teacher h3{
+    color: White;
+    background-color: rgba(39,40,34,.500);
+    text-align: center;           
+}
+       	.contact {
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;                
+}
+.contact h2{
+    color: rgb(54, 82, 110);
+    font-size: 25px;
+}
+.contact .infos{
+    display:flex;
+    margin-top: 30px; 
+    justify-content: center;
+}
+.contact .infos .left{
+    display:block;
+    text-align: left;
+    margin-right: 30px;
+}
+.contact .infos .left b{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: bold;
+    color: Gray;
+    font-size: 18px;
+    line-height: 18px;
+}
+.contact .infos .left span{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(39,40,34,0.5);
+    font-size: 16px;
+    padding-left: 27px;
+}
+.contact .infos .right{
+    height: 200px;               
+}
+.contact .infos .right iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(39,40,34,0.50);
+}
+        /*footer*/
+        .footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25,26,30);
+    padding: 30px 0;
+}
+    </style>
+    </head>
+    <body>
+        <div class="top">
+            	<div class="top">
+    <div class="container">
+        <div class="logo">
+            <img src="https://place-wiki.stefanocoding.me/images/d/d8/PMLogo.jpg">
+           Project Moon
+        </div>
+       <div class="top-nav">
+           <a href=>網站</a>
+           <a href=>聯絡</a>
+           <a href=>業務</a>
+       </div>
+    </div>
+</div>
+    </div>
+</div>
+        </div>
+        <div class="nav">   
+            	<div class="nav">   
+    <ul>
+        <li><a href="#">首頁</a></li>
+        <li><a href="#introduction">網頁簡介</a></li>
+        <li><a href="#faculty">遊戲簡介</a></li>
+        <li><a href="#about">相關資訊</a></li>
+    </ul>
+</div>
+        </div>
+        <div class="slider">
+            	<div class="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li><img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/lobotomycorp.png" /></li>
+            <li><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1256670/capsule_616x353.jpg?t=1670980516" /></li>
+            <li><img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1973530/capsule_616x353.jpg?t=1728532474" /></li>
+        </ul>
+    </div>
+</div>
+        </div>
+        <div class="banner">
+           <div class="banner" id="introduction">
+    <h1>Project Moon</h1>
+    <h1>SUPPORT@PROJMOON.COM</h1>
+    <h1>CONTACT@PROJMOON.COM</h1>
+    <h1>BUSINESS@PROJMOON.COM</h1>
+</div>
+        </div>
+        <div class="faculty">
+            <div class="faculty" id="faculty">
+    <h2>遊戲介紹</h2>
+    <div class="container">
+        <a class="teacher" href="">
+            <img src="https://i1.sndcdn.com/artworks-000413768856-mol7qo-t1080x1080.jpg" />
+            <h3>Lobotomy Corporation</h3>
+        </a>
+        <a class="teacher" href="">
+            <img src="https://i.namu.wiki/i/MOzRldqHj4sVPi2zwhMky7ZOPfypIt2WV8yf_XuZwVqE78_7lAeo_hpeIUwdWxH8BcQAIUbRCiMFSwNyfHIavg.webp" />
+            <h3>Library of Ruina</h3>
+       </a>
+       <a class="teacher" href="">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR4KUrNbtPrwwsgAab1Nl4VjPzqKeQjR5UQ&s" />
+           <h3>Limbus Company</h3>
+       </a>        
+    </div>
+</div>
+        </div>
+        <div class="contact">
+            <div class="contact" id="about">
+  <h2>聯絡資訊</h2>
+  <div class="infos">
+    <div class="left">
+      <b>HamHamPangPang</b>
+      <span>南韓 Gyeonggi-do, Suwon-si, Beopjo-ro, 25 에스케이뷰레이크타워 1층</span>
+      <b> 電話:+82 70-4112-5588</b>
+    </div>
+    <div class="right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.3082765247696!2d127.05834017586082!3d37.28782697211209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5b464e3b04f5%3A0xbf6d4c8b18770981!2sHamHamPangPang!5e0!3m2!1szh-TW!2stw!4v1735553029765!5m2!1szh-TW!2stw" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="footer">
+           	<div class="footer">
+    &copy;Copyright 2016 Department of Information Management, MUST. All rights reserved. Since 2016.11.18
+ </div>
+        </div>
+     </body>
+</html>
